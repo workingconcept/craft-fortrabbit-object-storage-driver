@@ -1,0 +1,42 @@
+{
+    "name": "workingconcept/imager-fortrabbit-object-storage-driver",
+    "description": "Imager Storage Driver for fortrabbit Object Storage",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "imager",
+        "fortrabbit"
+    ],
+    "support": {
+        "docs": "https://github.com/workingconcept/craft-fortrabbit-object-storage-driver/blob/master/README.md",
+        "issues": "https://github.com/workingconcept/craft-fortrabbit-object-storage-driver/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Working Concept Inc.",
+            "homepage": "https://workingconcept.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "aws/aws-sdk-php": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "workingconcept\\imagerfortrabbitobjectstoragedriver\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Imager Storage Driver for fortrabbit Object Storage",
+        "handle": "fortrabbit-object-storage-driver",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/workingconcept/craft-fortrabbit-object-storage-driver/master/CHANGELOG.md",
+        "class": "workingconcept\\imagerfortrabbitobjectstoragedriver\\ImagerFortrabbitObjectStorageDriver"
+    }
+}
