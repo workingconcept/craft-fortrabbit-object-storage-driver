@@ -6,7 +6,9 @@ This plugin also serves as a good reference point if you want to create your own
 
 ## Requirements
 
-This plugin requires [Craft CMS](https://github.com/craftcms/cms) 3.0.0 or later, and [Imager](https://github.com/aelvan/Imager-Craft) 2.0 or later. 
+- [Craft CMS](https://github.com/craftcms/cms) 3.0.0 or later
+- [Imager](https://github.com/aelvan/Imager-Craft) 2.0 or later
+- [fortrabbit Pro Stack app with Object Storage](https://www.fortrabbit.com/pricing-pro) (if you have a Universal Stack app, that's a different storage type that won't work here)
 
 ## Installation
 
