@@ -1,12 +1,12 @@
 # Imager Storage Driver for fortrabbit Object Storage
 
-This is an external storage driver for Imager that uploads your Imager transforms to fortrabbit's object storage. Object Storage is an AWS S3 compatible storage type, so the plugin utilizes the same S3 client as Imager's AWS storage does.
+This is an external storage driver for Imager that uploads your [Imager](https://github.com/aelvan/Imager-Craft) transforms to fortrabbit's object storage. Object Storage is an AWS S3 compatible storage type, so the plugin utilizes the same S3 client as Imager's AWS storage does.
 
 This plugin also serves as a good reference point if you want to create your own external storage driver for Imager to integrate with an unsupported third-party object storage. It's really simple, and you can do it either from a Craft 3 plugin, if you want to share it with the rest of the community (please do!), or a module, if you're using something proprietary/custom.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0 or later, and Imager 2.0 or later. 
+This plugin requires [Craft CMS](https://github.com/craftcms/cms) 3.0.0 or later, and [Imager](https://github.com/aelvan/Imager-Craft) 2.0 or later. 
 
 ## Installation
 
